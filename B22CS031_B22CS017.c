@@ -24,6 +24,7 @@ int main() {
             scanf("%f", &radius);
             if (radius < 0) {
                 printf("Invalid input:Because,Radius cannot be negative.\n");
+                printf("please enter valid input");
             } else {
                 circle_area = 3.14 * radius * radius;
                 printf("Area of the circle: %.2f\n", circle_area);
@@ -36,6 +37,7 @@ int main() {
             scanf("%f", &side);
             if (side < 0) {
                 printf("Invalid input:Because,Side length cannot be negative.\n");
+                printf("please enter valid input");
             } else {
                 square_area = side * side;
                 printf("Area of the square: %.2f\n", square_area);
@@ -48,6 +50,7 @@ int main() {
             scanf("%f%f", &length, &width);
             if (length < 0 || width < 0) {
                 printf("Invalid input:Because,Length or width cannot be negative.\n");
+                printf("please enter valid input");
             } else {
                 rectangle_area = length * width;
                 printf("Area of the rectangle: %.2f\n", rectangle_area);
@@ -60,6 +63,7 @@ int main() {
             scanf("%f%f", &base, &height);
             if (base < 0 || height < 0) {
                 printf("Invalid input:Because,Base or height cannot be negative.\n");
+                printf("please enter valid input");
             } else {
                 triangle_area = 0.5 * base * height;
                 printf("Area of the triangle: %.2f\n", triangle_area);
@@ -72,6 +76,7 @@ int main() {
             scanf("%f%f", &diagonal1, &diagonal2);
             if (diagonal1 < 0 || diagonal2 < 0) {
                 printf("Invalid input:Because,Diagonal lengths cannot be negative.\n");
+                printf("please enter valid input");
             } else {
                 rhombus_area = 0.5 * diagonal1 * diagonal2;
                 printf("Area of the rhombus: %.2f\n", rhombus_area);
@@ -85,6 +90,7 @@ int main() {
             scanf("%f%f%f", &parallel_side1, &parallel_side2, &trapezium_height);
             if (parallel_side1 < 0 || parallel_side2 < 0 || trapezium_height < 0) {
                 printf("Invalid input:Because,Lengths or height cannot be negative.\n");
+                printf("please enter valid input");
             } else {
                 trapezium_area = 0.5 * (parallel_side1 + parallel_side2) * trapezium_height;
                 printf("Area of the trapezium: %.2f\n", trapezium_area);
@@ -98,6 +104,7 @@ int main() {
             scanf("%f%f", &base_parallelogram, &height_parallelogram);
             if (base_parallelogram < 0 || height_parallelogram < 0) {
                 printf("Invalid input:Because,Base or height cannot be negative.\n");
+                printf("please enter valid input");
             } else {
                 parallelogram_area = base_parallelogram * height_parallelogram;
                 printf("Area of the parallelogram: %.2f\n", parallelogram_area);
@@ -113,6 +120,7 @@ int main() {
                 printf("Invalid input:Because,Axes lengths cannot be negative.\n");
             } else if(semi_minor > semi_major){
                 printf("Invalid input:Because,semi_minor axis length  can not be greater then semi_major axis\n");
+                printf("please enter valid input");
             }else {
                 ellipse_area = 3.14 * semi_minor * semi_major;
                 printf("Area of the ellipse: %.2f\n", ellipse_area);
@@ -125,6 +133,7 @@ int main() {
             scanf("%f", &side_pentagon);
             if (side_pentagon < 0) {
                 printf("Invalid input:Because,Side length cannot be negative.\n");
+                printf("please enter valid input");
             } else {
                 pentagon_area = 1.72 * side_pentagon * side_pentagon;
                 printf("Area of the pentagon: %.2f\n", pentagon_area);
@@ -138,6 +147,7 @@ int main() {
             scanf("%f", &side_hexagon);
             if (side_hexagon < 0) {
                 printf("Invalid input:Because,Side length cannot be negative.\n");
+                printf("please enter valid input");
             } else {
                 hexagon_area = 2.59 * side_hexagon * side_hexagon;
                 printf("Area of the hexagon: %.2f\n", hexagon_area);
